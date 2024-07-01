@@ -1,0 +1,156 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+nav ul
+{
+    display: flex;
+    justify-content: space-between; width: 35%;
+    align-items: center;
+    list-style-type: none;
+    font-size: 17px;
+}
+nav ul li:hover
+{
+    color: blue;
+}
+nav ul li button
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+}
+section h1
+{
+    margin-top: 150px;
+    font-size: 80px;
+    margin-left: 10%;
+}
+.subdiv-1,.subdiv-2,.subdiv-3,.subdiv-4
+{
+    display: flex;
+    justify-content: center;
+    align-items: centerx;
+    cursor: pointer;
+}
+.first-sec
+{
+    background-color: rgb(226, 219, 219);
+}
+.maindiv
+{
+    display: flex;
+    justify-content: space-between; width: 75%;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 40px;
+}
+.maindiv ul li
+{
+    list-style-type: none;
+}
+.images-1
+{
+    margin-left: 160px;
+    margin-top: 85px;
+    list-style-type: none;
+}
+.images-2
+{
+    margin-left: 160px;
+    margin-top: 60px;
+    list-style-type: none;
+}
+.button-1
+{
+    margin-left: 47%;
+    margin-top: 50px;
+    list-style-type: none;
+}
+.button-1 button
+{
+    border-radius: 14px;
+    padding: 18px;
+}
+.content-1 h4
+{
+    margin-left: 13%;
+    margin-top: 5%;
+    font-size: 27px;
+}
+.sec-1
+{
+    display: flex;
+    justify-content: space-between; width: 7px;
+    margin-left: 17%;
+    margin-top: 3%;
+    list-style-type: none;
+    cursor: pointer;
+}
+.sec-2
+{
+    display: flex;
+    justify-content: space-between; width: 7px;
+    margin-left: 33%;
+    margin-top: 1%;
+    list-style-type: none;
+    cursor: pointer;
+}
+.name-1
+{
+    margin-left: 13%;
+    margin-top: 2%;
+    font-size: 33px;
+}
+.content-2
+{
+    margin-left: 12%;
+    list-style-type: none;
+}
+.name-2
+{
+    margin-left: 15%;
+    margin-top: 3%;
+    font-size: 40px;
+}
+.content-3
+{
+    display: flex;
+    margin-left: 15%;
+}
+.content-I li
+{
+    font-size: 22px;
+    list-style-type: none;
+}
+.content-II
+{
+    margin-left: 25%;
+    font-size: 22px;
+    list-style-type: none;
+}
+.last-1
+{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.last-2
+{
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(253, 0, 84);
+    cursor: pointer;
+}
